@@ -1,4 +1,3 @@
-local vim = vim
 local M = {}
 
 local store = {}
@@ -57,10 +56,6 @@ function M.open()
   end, { buffer = buf })
 
   vim.keymap.set('n', 'q', function()
-    vim.api.nvim_win_close(win, true)
-  end, { buffer = buf })
-
-  vim.keymap.set('n', '<Esc>', function()
     vim.api.nvim_win_close(win, true)
   end, { buffer = buf })
 

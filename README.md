@@ -35,11 +35,10 @@ When working with multiple branches, you often want to compare the same pairs ov
 
 ## Keymaps (inside the floating window)
 
-| Key     | Action                              |
-|---------|-------------------------------------|
-| `<CR>`  | Open diff for the current line      |
-| `q`     | Close the window                    |
-| `<Esc>` | Close the window                    |
+| Key    | Action                         |
+| ------ | ------------------------------ |
+| `<CR>` | Open diff for the current line |
+| `q`    | Close the window               |
 
 ## Storage
 
